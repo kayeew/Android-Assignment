@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Mobile No.:" />
+    <EditText
+        android:id="@+id/txtMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message:" />
+    <EditText
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS" />
+
+    <Button
+        android:id="@+id/btnGetGPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Location" />
+</LinearLayout>

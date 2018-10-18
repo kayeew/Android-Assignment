@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="click">Capture</string>
+    <string name="todo">Camera Capture</string>
+    <string name="open_gallery">Open Gallery</string>
+    <string name="imageDesc">captured image</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

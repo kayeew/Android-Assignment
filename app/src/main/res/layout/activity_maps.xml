@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="332dp"
+            tools:context=".googlemap.MapsActivity" />
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lblLatitude"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="Latitude:" />
+
+            <TextView
+                android:id="@+id/txtLatitude"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/lblLongitude"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Longitude: " />
+
+            <TextView
+                android:id="@+id/txtLongitude"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSendLocation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:onClick="onclickbtnSendLocation"
+            android:text="Send Location via SMS" />
+
+    </LinearLayout>
+
+</LinearLayout>
