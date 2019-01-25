@@ -24,14 +24,19 @@ The Google Maps API allows us to display the map and show the user where they cu
 7.	Click Run and select your device to run the application.
 
 ### Screenshots
-#### Server
-<img src="/Screenshots/1.png" />
-<img src="/Screenshots/2.png" />
-<img src="/Screenshots/3.png" /><br >
-<img src="/Screenshots/4.png" />
-<img src="/Screenshots/5.png" />
-<img src="/Screenshots/6.png" /><br >
-<img src="/Screenshots/7.png" />
-<img src="/Screenshots/8.png" />
-<img src="/Screenshots/9.png" /><br >
+<p float="left">
+  <img src="/Screenshots/1.png" height="320" width="180">
+  <img src="/Screenshots/2.png" height="320" width="180">
+  <img src="/Screenshots/3.png" height="320" width="180">
+</p>
+<p float="left">
+  <img src="/Screenshots/4.png" height="320" width="180">
+  <img src="/Screenshots/5.png" height="320" width="180">
+  <img src="/Screenshots/6.png" height="320" width="180">
+</p>
+<p float="left">
+  <img src="/Screenshots/7.png" height="320" width="180">
+  <img src="/Screenshots/8.png" height="320" width="180">
+  <img src="/Screenshots/9.png" height="320" width="180">
+</p>
 
