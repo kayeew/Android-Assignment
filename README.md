@@ -2,7 +2,7 @@
 
 ### Description
 
-basic location sharing android application that lets the user send GPS over SMS, view SMS inbox, chat over Bluetooth 
+A basic location sharing android application that lets the user send GPS over SMS, view SMS inbox, chat over Bluetooth 
 and take photos with camera.
 
 ### Features:
