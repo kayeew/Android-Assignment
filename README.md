@@ -6,13 +6,13 @@ A basic location sharing android application that lets the user send GPS over SM
 and take photos with camera.
 
 ### Features:
-1.	Send SMS - allows user to send SMS using the SMSmanager getDefault() method.
-2.	View Inbox - displays all incoming and received SMS in a list view. 
-3.	Get GPS Location – allows user to get its current location though the Google Map API over internet connection. 
+1.	**Send SMS**- allows user to send SMS using the SMSmanager getDefault() method.
+2.	**View Inbox** - displays all incoming and received SMS in a list view. 
+3.	**Get GPS Location** – allows user to get its current location though the Google Map API over internet connection. 
 It uses fine_location and course_location to determine the precise location of the user. 
 The Google Maps API allows us to display the map and show the user where they currently are on the map and allows users to select a place on the map that will retrieve it’s GPS location 
-4.	Bluetooth Chat - allows a two Bluetooth paired devices to connect and chat through the BluetoothSocket and of use of threads.  
-5.	Camera – The camera allows the user to take a photo and to save it into a folder called “DMS3 Pictures” that can be viewed in the phones default gallery. It creates a unique name for each photo and therefore there will be no clashes when saving.
+4.	**Bluetooth Chat** - allows a two Bluetooth paired devices to connect and chat through the BluetoothSocket and of use of threads.  
+5.	**Camera** – The camera allows the user to take a photo and to save it into a folder called “DMS3 Pictures” that can be viewed in the phones default gallery. It creates a unique name for each photo and therefore there will be no clashes when saving.
 
 ### Setup:
 1.	Open Android Studio
