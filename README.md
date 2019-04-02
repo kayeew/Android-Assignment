@@ -1,4 +1,4 @@
-# DMS Android Assignment
+# Android Assignment
 
 ### Description
 
